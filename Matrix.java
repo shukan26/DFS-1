@@ -1,3 +1,14 @@
+//Time Complexity: O(m * n), where m is the number of rows and n is the number of columns in the matrix.
+// Space Complexity: O(m * n) for the queue used in BFS, in the worst case where all cells are processed.
+//LeetCode: https://leetcode.com/problems/01-matrix/
+
+/**
+ * Updates each cell in the matrix with the distance to the nearest 0.
+ * Uses BFS starting from all 0s and expands outward to compute minimum distances.
+ * Returns the updated matrix where each cell holds the shortest distance to a 0.
+ */
+
+
 import java.util.*;
 import java.util.LinkedList;;
 
